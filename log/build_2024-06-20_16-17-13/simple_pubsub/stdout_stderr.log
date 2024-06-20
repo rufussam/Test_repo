@@ -1,0 +1,26 @@
+[ 16%] Built target gtest_main
+[ 33%] Built target publisher_node
+[ 50%] Built target gtest
+[ 66%] Built target test_simple_pubsub
+[ 83%] Built target subscriber_node
+[35m[1mConsolidate compiler generated dependencies of target u_test_simple_pubsub[0m
+[100%] Built target u_test_simple_pubsub
+-- Install configuration: ""
+-- Up-to-date: /home/rufus/Documents/ros2_files/simple_pubsub/install/simple_pubsub/lib/simple_pubsub/publisher_node
+-- Up-to-date: /home/rufus/Documents/ros2_files/simple_pubsub/install/simple_pubsub/lib/simple_pubsub/subscriber_node
+-- Up-to-date: /home/rufus/Documents/ros2_files/simple_pubsub/install/simple_pubsub/lib/simple_pubsub/test_simple_pubsub
+-- Up-to-date: /home/rufus/Documents/ros2_files/simple_pubsub/install/simple_pubsub/share/ament_index/resource_index/package_run_dependencies/simple_pubsub
+-- Up-to-date: /home/rufus/Documents/ros2_files/simple_pubsub/install/simple_pubsub/share/ament_index/resource_index/parent_prefix_path/simple_pubsub
+-- Up-to-date: /home/rufus/Documents/ros2_files/simple_pubsub/install/simple_pubsub/share/simple_pubsub/environment/ament_prefix_path.sh
+-- Up-to-date: /home/rufus/Documents/ros2_files/simple_pubsub/install/simple_pubsub/share/simple_pubsub/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/rufus/Documents/ros2_files/simple_pubsub/install/simple_pubsub/share/simple_pubsub/environment/path.sh
+-- Up-to-date: /home/rufus/Documents/ros2_files/simple_pubsub/install/simple_pubsub/share/simple_pubsub/environment/path.dsv
+-- Up-to-date: /home/rufus/Documents/ros2_files/simple_pubsub/install/simple_pubsub/share/simple_pubsub/local_setup.bash
+-- Up-to-date: /home/rufus/Documents/ros2_files/simple_pubsub/install/simple_pubsub/share/simple_pubsub/local_setup.sh
+-- Up-to-date: /home/rufus/Documents/ros2_files/simple_pubsub/install/simple_pubsub/share/simple_pubsub/local_setup.zsh
+-- Up-to-date: /home/rufus/Documents/ros2_files/simple_pubsub/install/simple_pubsub/share/simple_pubsub/local_setup.dsv
+-- Installing: /home/rufus/Documents/ros2_files/simple_pubsub/install/simple_pubsub/share/simple_pubsub/package.dsv
+-- Up-to-date: /home/rufus/Documents/ros2_files/simple_pubsub/install/simple_pubsub/share/ament_index/resource_index/packages/simple_pubsub
+-- Up-to-date: /home/rufus/Documents/ros2_files/simple_pubsub/install/simple_pubsub/share/simple_pubsub/cmake/simple_pubsubConfig.cmake
+-- Up-to-date: /home/rufus/Documents/ros2_files/simple_pubsub/install/simple_pubsub/share/simple_pubsub/cmake/simple_pubsubConfig-version.cmake
+-- Up-to-date: /home/rufus/Documents/ros2_files/simple_pubsub/install/simple_pubsub/share/simple_pubsub/package.xml

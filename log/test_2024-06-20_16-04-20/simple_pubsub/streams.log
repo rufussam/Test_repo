@@ -1,0 +1,45 @@
+[0.036s] Invoking command in '/home/rufus/Documents/ros2_files/simple_pubsub/build/simple_pubsub': CMAKE_PREFIX_PATH=/home/rufus/Documents/ros2_files/simple_pubsub/install/simple_pubsub:/home/rufus/Documents/ros2_files/install/realsense2_description:/home/rufus/Documents/ros2_files/install/realsense2_camera_msgs:/home/rufus/Documents/ros2_files/install/fastrtps:/home/rufus/Documents/ros2_files/install/agaricus100_motion:/home/rufus/Documents/ros2_files/install/agaricus100_gazebo:/home/rufus/Documents/ros2_files/install/agaricus100_description:/home/rufus/Documents/ros2_files/Mark1_ros2/install/agaricus100_moveit_config:/home/rufus/Documents/ros2_files/Mark1_ros2/install/agaricus100_motion:/home/rufus/Documents/ros2_files/Mark1_ros2/install/agaricus100_gazebo:/home/rufus/Documents/ros2_files/Mark1_ros2/install/agaricus100_description /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.040s] UpdateCTestConfiguration  from :/home/rufus/Documents/ros2_files/simple_pubsub/build/simple_pubsub/CTestConfiguration.ini
+[0.041s] Parse Config file:/home/rufus/Documents/ros2_files/simple_pubsub/build/simple_pubsub/CTestConfiguration.ini
+[0.041s]    Site: rufus-ASUS-TUF-Dash-F15-FX516PM-FX516PM
+[0.041s]    Build name: (empty)
+[0.041s]  Add coverage exclude regular expressions.
+[0.041s] Create new tag: 20240620-1504 - Experimental
+[0.041s] UpdateCTestConfiguration  from :/home/rufus/Documents/ros2_files/simple_pubsub/build/simple_pubsub/CTestConfiguration.ini
+[0.041s] Parse Config file:/home/rufus/Documents/ros2_files/simple_pubsub/build/simple_pubsub/CTestConfiguration.ini
+[0.041s] Test project /home/rufus/Documents/ros2_files/simple_pubsub/build/simple_pubsub
+[0.041s] Constructing a list of tests
+[0.041s] Done constructing a list of tests
+[0.041s] Updating test list for fixtures
+[0.041s] Added 0 tests to meet fixture requirements
+[0.041s] Checking test dependency graph...
+[0.041s] Checking test dependency graph end
+[0.041s] test 1
+[0.041s]     Start 1: u_test_simple_pubsub
+[0.041s] 
+[0.041s] 1: Test command: /usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/rufus/Documents/ros2_files/simple_pubsub/build/simple_pubsub/test_results/simple_pubsub/u_test_simple_pubsub.gtest.xml" "--package-name" "simple_pubsub" "--output-file" "/home/rufus/Documents/ros2_files/simple_pubsub/build/simple_pubsub/ament_cmake_gtest/u_test_simple_pubsub.txt" "--command" "/home/rufus/Documents/ros2_files/simple_pubsub/build/simple_pubsub/u_test_simple_pubsub" "--gtest_output=xml:/home/rufus/Documents/ros2_files/simple_pubsub/build/simple_pubsub/test_results/simple_pubsub/u_test_simple_pubsub.gtest.xml"
+[0.041s] 1: Test timeout computed to be: 60
+[0.077s] 1: -- run_test.py: invoking following command in '/home/rufus/Documents/ros2_files/simple_pubsub/build/simple_pubsub':
+[0.077s] 1:  - /home/rufus/Documents/ros2_files/simple_pubsub/build/simple_pubsub/u_test_simple_pubsub --gtest_output=xml:/home/rufus/Documents/ros2_files/simple_pubsub/build/simple_pubsub/test_results/simple_pubsub/u_test_simple_pubsub.gtest.xml
+[0.081s] 1: [==========] Running 1 test from 1 test suite.
+[0.081s] 1: [----------] Global test environment set-up.
+[0.081s] 1: [----------] 1 test from SimplePubSubTest
+[0.084s] 1: [ RUN      ] SimplePubSubTest.TestPublishSubscribe
+[0.103s] 1: [       OK ] SimplePubSubTest.TestPublishSubscribe (18 ms)
+[0.103s] 1: [----------] 1 test from SimplePubSubTest (18 ms total)
+[0.103s] 1: 
+[0.103s] 1: [----------] Global test environment tear-down
+[0.103s] 1: [==========] 1 test from 1 test suite ran. (22 ms total)
+[0.103s] 1: [  PASSED  ] 1 test.
+[0.207s] 1: -- run_test.py: return code 0
+[0.207s] 1: -- run_test.py: inject classname prefix into gtest result file '/home/rufus/Documents/ros2_files/simple_pubsub/build/simple_pubsub/test_results/simple_pubsub/u_test_simple_pubsub.gtest.xml'
+[0.207s] 1: -- run_test.py: verify result file '/home/rufus/Documents/ros2_files/simple_pubsub/build/simple_pubsub/test_results/simple_pubsub/u_test_simple_pubsub.gtest.xml'
+[0.223s] 1/1 Test #1: u_test_simple_pubsub .............   Passed    0.18 sec
+[0.223s] 
+[0.223s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 1
+[0.223s] 
+[0.223s] Label Time Summary:
+[0.223s] gtest    =   0.18 sec*proc (1 test)
+[0.223s] 
+[0.224s] Total Test time (real) =   0.18 sec
+[0.227s] Invoked command in '/home/rufus/Documents/ros2_files/simple_pubsub/build/simple_pubsub' returned '0': CMAKE_PREFIX_PATH=/home/rufus/Documents/ros2_files/simple_pubsub/install/simple_pubsub:/home/rufus/Documents/ros2_files/install/realsense2_description:/home/rufus/Documents/ros2_files/install/realsense2_camera_msgs:/home/rufus/Documents/ros2_files/install/fastrtps:/home/rufus/Documents/ros2_files/install/agaricus100_motion:/home/rufus/Documents/ros2_files/install/agaricus100_gazebo:/home/rufus/Documents/ros2_files/install/agaricus100_description:/home/rufus/Documents/ros2_files/Mark1_ros2/install/agaricus100_moveit_config:/home/rufus/Documents/ros2_files/Mark1_ros2/install/agaricus100_motion:/home/rufus/Documents/ros2_files/Mark1_ros2/install/agaricus100_gazebo:/home/rufus/Documents/ros2_files/Mark1_ros2/install/agaricus100_description /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

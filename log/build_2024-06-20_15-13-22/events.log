@@ -1,0 +1,141 @@
+[0.000000] (-) TimerEvent: {}
+[0.000201] (simple_pubsub) JobQueued: {'identifier': 'simple_pubsub', 'dependencies': OrderedDict()}
+[0.000263] (simple_pubsub) JobStarted: {'identifier': 'simple_pubsub'}
+[0.008233] (simple_pubsub) JobProgress: {'identifier': 'simple_pubsub', 'progress': 'cmake'}
+[0.008430] (simple_pubsub) Command: {'cmd': ['/usr/bin/cmake', '/home/rufus/Documents/ros2_files/simple_pubsub', '-DCMAKE_INSTALL_PREFIX=/home/rufus/Documents/ros2_files/simple_pubsub/install/simple_pubsub'], 'cwd': '/home/rufus/Documents/ros2_files/simple_pubsub/build/simple_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'rufus'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rufus'), ('OLDPWD', '/home/rufus/Documents/ros2_files/simple_pubsub/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2145'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/rufus/.nvm'), ('COLCON_PREFIX_PATH', '/home/rufus/Documents/ros2_files/testing_package/install:/home/rufus/Documents/ros2_files/Mark1_ros2/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rufus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rufus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rufus-ASUS-TUF-Dash-F15-FX516PM-FX516PM:@/tmp/.ICE-unix/2116,unix/rufus-ASUS-TUF-Dash-F15-FX516PM-FX516PM:/tmp/.ICE-unix/2116'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/34929514_92c1_415f_8566_9bdc93664444'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.156'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rufus/Documents/ros2_files/Mark1_ros2/install/agaricus100_moveit_config:/home/rufus/Documents/ros2_files/Mark1_ros2/install/agaricus100_motion:/home/rufus/Documents/ros2_files/Mark1_ros2/install/agaricus100_gazebo:/home/rufus/Documents/ros2_files/Mark1_ros2/install/agaricus100_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rufus/Documents/ros2_files/simple_pubsub/build/simple_pubsub'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('NVM_RC_VERSION', ''), ('CMAKE_PREFIX_PATH', '/home/rufus/Documents/ros2_files/Mark1_ros2/install/agaricus100_moveit_config:/home/rufus/Documents/ros2_files/Mark1_ros2/install/agaricus100_motion:/home/rufus/Documents/ros2_files/Mark1_ros2/install/agaricus100_gazebo:/home/rufus/Documents/ros2_files/Mark1_ros2/install/agaricus100_description:/opt/ros/humble')]), 'shell': False}
+[0.099529] (-) TimerEvent: {}
+[0.099737] (simple_pubsub) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.175648] (simple_pubsub) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.186154] (simple_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199671] (-) TimerEvent: {}
+[0.236384] (simple_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.240979] (simple_pubsub) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.241389] (simple_pubsub) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.242004] (simple_pubsub) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.244749] (simple_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299786] (-) TimerEvent: {}
+[0.303497] (simple_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.308109] (simple_pubsub) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.308241] (simple_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.308585] (simple_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.313692] (simple_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.399867] (-) TimerEvent: {}
+[0.418731] (simple_pubsub) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.492857] (simple_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.499947] (-) TimerEvent: {}
+[0.538360] (simple_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.543567] (simple_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.552809] (simple_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.567071] (simple_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.584561] (simple_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600039] (-) TimerEvent: {}
+[0.643692] (simple_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.646903] (simple_pubsub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.700128] (-) TimerEvent: {}
+[0.722580] (simple_pubsub) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.742699] (simple_pubsub) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.771579] (simple_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.780980] (simple_pubsub) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.800222] (-) TimerEvent: {}
+[0.855528] (simple_pubsub) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.856015] (simple_pubsub) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.900347] (-) TimerEvent: {}
+[0.907508] (simple_pubsub) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.908290] (simple_pubsub) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.000477] (-) TimerEvent: {}
+[1.058332] (simple_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.064888] (simple_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[1.065822] (simple_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/rufus/Documents/ros2_files/simple_pubsub/build/simple_pubsub\n'}
+[1.071894] (simple_pubsub) CommandEnded: {'returncode': 0}
+[1.072278] (simple_pubsub) JobProgress: {'identifier': 'simple_pubsub', 'progress': 'build'}
+[1.072821] (simple_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rufus/Documents/ros2_files/simple_pubsub/build/simple_pubsub', '--', '-j8', '-l8'], 'cwd': '/home/rufus/Documents/ros2_files/simple_pubsub/build/simple_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'rufus'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rufus'), ('OLDPWD', '/home/rufus/Documents/ros2_files/simple_pubsub/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2145'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/rufus/.nvm'), ('COLCON_PREFIX_PATH', '/home/rufus/Documents/ros2_files/testing_package/install:/home/rufus/Documents/ros2_files/Mark1_ros2/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rufus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rufus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rufus-ASUS-TUF-Dash-F15-FX516PM-FX516PM:@/tmp/.ICE-unix/2116,unix/rufus-ASUS-TUF-Dash-F15-FX516PM-FX516PM:/tmp/.ICE-unix/2116'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/34929514_92c1_415f_8566_9bdc93664444'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.156'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rufus/Documents/ros2_files/Mark1_ros2/install/agaricus100_moveit_config:/home/rufus/Documents/ros2_files/Mark1_ros2/install/agaricus100_motion:/home/rufus/Documents/ros2_files/Mark1_ros2/install/agaricus100_gazebo:/home/rufus/Documents/ros2_files/Mark1_ros2/install/agaricus100_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rufus/Documents/ros2_files/simple_pubsub/build/simple_pubsub'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('NVM_RC_VERSION', ''), ('CMAKE_PREFIX_PATH', '/home/rufus/Documents/ros2_files/Mark1_ros2/install/agaricus100_moveit_config:/home/rufus/Documents/ros2_files/Mark1_ros2/install/agaricus100_motion:/home/rufus/Documents/ros2_files/Mark1_ros2/install/agaricus100_gazebo:/home/rufus/Documents/ros2_files/Mark1_ros2/install/agaricus100_description:/opt/ros/humble')]), 'shell': False}
+[1.100579] (-) TimerEvent: {}
+[1.105955] (simple_pubsub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/publisher_node.dir/src/publisher_node.cpp.o\x1b[0m\n'}
+[1.106142] (simple_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/subscriber_node.dir/src/subscriber_node.cpp.o\x1b[0m\n'}
+[1.200705] (-) TimerEvent: {}
+[1.300990] (-) TimerEvent: {}
+[1.401295] (-) TimerEvent: {}
+[1.501581] (-) TimerEvent: {}
+[1.601922] (-) TimerEvent: {}
+[1.702301] (-) TimerEvent: {}
+[1.802676] (-) TimerEvent: {}
+[1.903065] (-) TimerEvent: {}
+[2.003426] (-) TimerEvent: {}
+[2.103837] (-) TimerEvent: {}
+[2.204241] (-) TimerEvent: {}
+[2.304658] (-) TimerEvent: {}
+[2.405084] (-) TimerEvent: {}
+[2.505491] (-) TimerEvent: {}
+[2.606009] (-) TimerEvent: {}
+[2.706445] (-) TimerEvent: {}
+[2.806819] (-) TimerEvent: {}
+[2.907148] (-) TimerEvent: {}
+[3.007470] (-) TimerEvent: {}
+[3.107792] (-) TimerEvent: {}
+[3.208113] (-) TimerEvent: {}
+[3.308448] (-) TimerEvent: {}
+[3.408780] (-) TimerEvent: {}
+[3.509118] (-) TimerEvent: {}
+[3.609454] (-) TimerEvent: {}
+[3.709728] (-) TimerEvent: {}
+[3.810014] (-) TimerEvent: {}
+[3.910346] (-) TimerEvent: {}
+[4.010655] (-) TimerEvent: {}
+[4.095168] (simple_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable publisher_node\x1b[0m\n'}
+[4.110771] (-) TimerEvent: {}
+[4.211106] (-) TimerEvent: {}
+[4.257677] (simple_pubsub) StdoutLine: {'line': b'[ 75%] Built target publisher_node\n'}
+[4.311255] (-) TimerEvent: {}
+[4.411592] (-) TimerEvent: {}
+[4.511935] (-) TimerEvent: {}
+[4.612246] (-) TimerEvent: {}
+[4.712556] (-) TimerEvent: {}
+[4.812824] (-) TimerEvent: {}
+[4.913103] (-) TimerEvent: {}
+[5.013363] (-) TimerEvent: {}
+[5.113605] (-) TimerEvent: {}
+[5.213888] (-) TimerEvent: {}
+[5.314130] (-) TimerEvent: {}
+[5.414384] (-) TimerEvent: {}
+[5.514675] (-) TimerEvent: {}
+[5.614968] (-) TimerEvent: {}
+[5.715213] (-) TimerEvent: {}
+[5.815473] (-) TimerEvent: {}
+[5.915801] (-) TimerEvent: {}
+[6.016120] (-) TimerEvent: {}
+[6.116396] (-) TimerEvent: {}
+[6.216698] (-) TimerEvent: {}
+[6.317074] (-) TimerEvent: {}
+[6.417438] (-) TimerEvent: {}
+[6.517743] (-) TimerEvent: {}
+[6.544944] (simple_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable subscriber_node\x1b[0m\n'}
+[6.617847] (-) TimerEvent: {}
+[6.718155] (-) TimerEvent: {}
+[6.797574] (simple_pubsub) StdoutLine: {'line': b'[100%] Built target subscriber_node\n'}
+[6.804835] (simple_pubsub) CommandEnded: {'returncode': 0}
+[6.818256] (-) TimerEvent: {}
+[6.826351] (simple_pubsub) JobProgress: {'identifier': 'simple_pubsub', 'progress': 'install'}
+[6.835702] (simple_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rufus/Documents/ros2_files/simple_pubsub/build/simple_pubsub'], 'cwd': '/home/rufus/Documents/ros2_files/simple_pubsub/build/simple_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_GB:en'), ('USER', 'rufus'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rufus'), ('OLDPWD', '/home/rufus/Documents/ros2_files/simple_pubsub/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2145'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/rufus/.nvm'), ('COLCON_PREFIX_PATH', '/home/rufus/Documents/ros2_files/testing_package/install:/home/rufus/Documents/ros2_files/Mark1_ros2/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'rufus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rufus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rufus-ASUS-TUF-Dash-F15-FX516PM-FX516PM:@/tmp/.ICE-unix/2116,unix/rufus-ASUS-TUF-Dash-F15-FX516PM-FX516PM:/tmp/.ICE-unix/2116'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/34929514_92c1_415f_8566_9bdc93664444'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_GB.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.156'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rufus/Documents/ros2_files/Mark1_ros2/install/agaricus100_moveit_config:/home/rufus/Documents/ros2_files/Mark1_ros2/install/agaricus100_motion:/home/rufus/Documents/ros2_files/Mark1_ros2/install/agaricus100_gazebo:/home/rufus/Documents/ros2_files/Mark1_ros2/install/agaricus100_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rufus/Documents/ros2_files/simple_pubsub/build/simple_pubsub'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('NVM_RC_VERSION', ''), ('CMAKE_PREFIX_PATH', '/home/rufus/Documents/ros2_files/Mark1_ros2/install/agaricus100_moveit_config:/home/rufus/Documents/ros2_files/Mark1_ros2/install/agaricus100_motion:/home/rufus/Documents/ros2_files/Mark1_ros2/install/agaricus100_gazebo:/home/rufus/Documents/ros2_files/Mark1_ros2/install/agaricus100_description:/opt/ros/humble')]), 'shell': False}
+[6.844546] (simple_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.844714] (simple_pubsub) StdoutLine: {'line': b'-- Installing: /home/rufus/Documents/ros2_files/simple_pubsub/install/simple_pubsub/lib/simple_pubsub/publisher_node\n'}
+[6.845670] (simple_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/rufus/Documents/ros2_files/simple_pubsub/install/simple_pubsub/lib/simple_pubsub/publisher_node" to ""\n'}
+[6.845772] (simple_pubsub) StdoutLine: {'line': b'-- Installing: /home/rufus/Documents/ros2_files/simple_pubsub/install/simple_pubsub/lib/simple_pubsub/subscriber_node\n'}
+[6.849642] (simple_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/rufus/Documents/ros2_files/simple_pubsub/install/simple_pubsub/lib/simple_pubsub/subscriber_node" to ""\n'}
+[6.849767] (simple_pubsub) StdoutLine: {'line': b'-- Installing: /home/rufus/Documents/ros2_files/simple_pubsub/install/simple_pubsub/share/ament_index/resource_index/package_run_dependencies/simple_pubsub\n'}
+[6.849847] (simple_pubsub) StdoutLine: {'line': b'-- Installing: /home/rufus/Documents/ros2_files/simple_pubsub/install/simple_pubsub/share/ament_index/resource_index/parent_prefix_path/simple_pubsub\n'}
+[6.849918] (simple_pubsub) StdoutLine: {'line': b'-- Installing: /home/rufus/Documents/ros2_files/simple_pubsub/install/simple_pubsub/share/simple_pubsub/environment/ament_prefix_path.sh\n'}
+[6.849992] (simple_pubsub) StdoutLine: {'line': b'-- Installing: /home/rufus/Documents/ros2_files/simple_pubsub/install/simple_pubsub/share/simple_pubsub/environment/ament_prefix_path.dsv\n'}
+[6.850075] (simple_pubsub) StdoutLine: {'line': b'-- Installing: /home/rufus/Documents/ros2_files/simple_pubsub/install/simple_pubsub/share/simple_pubsub/environment/path.sh\n'}
+[6.850152] (simple_pubsub) StdoutLine: {'line': b'-- Installing: /home/rufus/Documents/ros2_files/simple_pubsub/install/simple_pubsub/share/simple_pubsub/environment/path.dsv\n'}
+[6.850230] (simple_pubsub) StdoutLine: {'line': b'-- Installing: /home/rufus/Documents/ros2_files/simple_pubsub/install/simple_pubsub/share/simple_pubsub/local_setup.bash\n'}
+[6.850326] (simple_pubsub) StdoutLine: {'line': b'-- Installing: /home/rufus/Documents/ros2_files/simple_pubsub/install/simple_pubsub/share/simple_pubsub/local_setup.sh\n'}
+[6.850420] (simple_pubsub) StdoutLine: {'line': b'-- Installing: /home/rufus/Documents/ros2_files/simple_pubsub/install/simple_pubsub/share/simple_pubsub/local_setup.zsh\n'}
+[6.850667] (simple_pubsub) StdoutLine: {'line': b'-- Installing: /home/rufus/Documents/ros2_files/simple_pubsub/install/simple_pubsub/share/simple_pubsub/local_setup.dsv\n'}
+[6.850747] (simple_pubsub) StdoutLine: {'line': b'-- Installing: /home/rufus/Documents/ros2_files/simple_pubsub/install/simple_pubsub/share/simple_pubsub/package.dsv\n'}
+[6.850797] (simple_pubsub) StdoutLine: {'line': b'-- Installing: /home/rufus/Documents/ros2_files/simple_pubsub/install/simple_pubsub/share/ament_index/resource_index/packages/simple_pubsub\n'}
+[6.850860] (simple_pubsub) StdoutLine: {'line': b'-- Installing: /home/rufus/Documents/ros2_files/simple_pubsub/install/simple_pubsub/share/simple_pubsub/cmake/simple_pubsubConfig.cmake\n'}
+[6.850921] (simple_pubsub) StdoutLine: {'line': b'-- Installing: /home/rufus/Documents/ros2_files/simple_pubsub/install/simple_pubsub/share/simple_pubsub/cmake/simple_pubsubConfig-version.cmake\n'}
+[6.850971] (simple_pubsub) StdoutLine: {'line': b'-- Installing: /home/rufus/Documents/ros2_files/simple_pubsub/install/simple_pubsub/share/simple_pubsub/package.xml\n'}
+[6.852357] (simple_pubsub) CommandEnded: {'returncode': 0}
+[6.893305] (simple_pubsub) JobEnded: {'identifier': 'simple_pubsub', 'rc': 0}
+[6.894163] (-) EventReactorShutdown: {}

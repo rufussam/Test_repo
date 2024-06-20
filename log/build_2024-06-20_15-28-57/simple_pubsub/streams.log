@@ -1,0 +1,16 @@
+[0.013s] Invoking command in '/home/rufus/Documents/ros2_files/simple_pubsub/build/simple_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rufus/Documents/ros2_files/simple_pubsub/build/simple_pubsub -- -j8 -l8
+[0.042s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.042s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.052s] [ 20%] Built target gtest_main
+[0.053s] [ 40%] Built target gtest
+[0.054s] [ 60%] Built target subscriber_node
+[0.056s] [ 80%] Built target publisher_node
+[0.065s] [ 90%] [32mBuilding CXX object CMakeFiles/test_simple_pubsub.dir/test/test_simple_pubsub.cpp.o[0m
+[0.115s] [01m[K/home/rufus/Documents/ros2_files/simple_pubsub/test/test_simple_pubsub.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[0.115s]     2 | #include [01;31m[K<rclcpp/rclcpp.hpp>[m[K
+[0.115s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.115s] compilation terminated.
+[0.119s] gmake[2]: *** [CMakeFiles/test_simple_pubsub.dir/build.make:76: CMakeFiles/test_simple_pubsub.dir/test/test_simple_pubsub.cpp.o] Error 1
+[0.119s] gmake[1]: *** [CMakeFiles/Makefile2:212: CMakeFiles/test_simple_pubsub.dir/all] Error 2
+[0.119s] gmake: *** [Makefile:146: all] Error 2
+[0.121s] Invoked command in '/home/rufus/Documents/ros2_files/simple_pubsub/build/simple_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rufus/Documents/ros2_files/simple_pubsub/build/simple_pubsub -- -j8 -l8

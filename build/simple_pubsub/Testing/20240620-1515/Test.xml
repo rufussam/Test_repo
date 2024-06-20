@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20240620-1515-Experimental"
+	Name="rufus-ASUS-TUF-Dash-F15-FX516PM-FX516PM"
+	Generator="ctest-3.22.1"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="11.4.0"
+	OSName="Linux"
+	Hostname="rufus-ASUS-TUF-Dash-F15-FX516PM-FX516PM"
+	OSRelease="6.5.0-35-generic"
+	OSVersion="#35~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue May  7 09:00:52 UTC 2"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="140"
+	ProcessorCacheSize="12288"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="2047"
+	TotalPhysicalMemory="7625"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="1942.53"
+	>
+	<Testing>
+		<StartDateTime>Jun 20 16:15 BST</StartDateTime>
+		<StartTestTime>1718896545</StartTestTime>
+		<TestList>
+			<Test>./u_test_simple_pubsub</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>u_test_simple_pubsub</Name>
+			<Path>.</Path>
+			<FullName>./u_test_simple_pubsub</FullName>
+			<FullCommandLine>/usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/rufus/Documents/ros2_files/simple_pubsub/build/simple_pubsub/test_results/simple_pubsub/u_test_simple_pubsub.gtest.xml" "--package-name" "simple_pubsub" "--output-file" "/home/rufus/Documents/ros2_files/simple_pubsub/build/simple_pubsub/ament_cmake_gtest/u_test_simple_pubsub.txt" "--command" "/home/rufus/Documents/ros2_files/simple_pubsub/build/simple_pubsub/u_test_simple_pubsub" "--gtest_output=xml:/home/rufus/Documents/ros2_files/simple_pubsub/build/simple_pubsub/test_results/simple_pubsub/u_test_simple_pubsub.gtest.xml"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.188008</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/rufus/Documents/ros2_files/simple_pubsub/build/simple_pubsub/test_results/simple_pubsub/u_test_simple_pubsub.gtest.xml" "--package-name" "simple_pubsub" "--output-file" "/home/rufus/Documents/ros2_files/simple_pubsub/build/simple_pubsub/ament_cmake_gtest/u_test_simple_pubsub.txt" "--command" "/home/rufus/Documents/ros2_files/simple_pubsub/build/simple_pubsub/u_test_simple_pubsub" "--gtest_output=xml:/home/rufus/Documents/ros2_files/simple_pubsub/build/simple_pubsub/test_results/simple_pubsub/u_test_simple_pubsub.gtest.xml"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>-- run_test.py: invoking following command in '/home/rufus/Documents/ros2_files/simple_pubsub/build/simple_pubsub':
+ - /home/rufus/Documents/ros2_files/simple_pubsub/build/simple_pubsub/u_test_simple_pubsub --gtest_output=xml:/home/rufus/Documents/ros2_files/simple_pubsub/build/simple_pubsub/test_results/simple_pubsub/u_test_simple_pubsub.gtest.xml
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SimplePubSubTest
+[ RUN      ] SimplePubSubTest.TestPublishSubscribe
+[       OK ] SimplePubSubTest.TestPublishSubscribe (18 ms)
+[----------] 1 test from SimplePubSubTest (18 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (23 ms total)
+[  PASSED  ] 1 test.
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/home/rufus/Documents/ros2_files/simple_pubsub/build/simple_pubsub/test_results/simple_pubsub/u_test_simple_pubsub.gtest.xml'
+-- run_test.py: verify result file '/home/rufus/Documents/ros2_files/simple_pubsub/build/simple_pubsub/test_results/simple_pubsub/u_test_simple_pubsub.gtest.xml'
+</Value>
+				</Measurement>
+			</Results>
+			<Labels>
+				<Label>gtest</Label>
+			</Labels>
+		</Test>
+		<EndDateTime>Jun 20 16:15 BST</EndDateTime>
+		<EndTestTime>1718896545</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

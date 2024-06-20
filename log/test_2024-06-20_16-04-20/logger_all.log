@@ -1,0 +1,50 @@
+[0.144s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'test', '--packages-select', 'simple_pubsub']
+[0.144s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='test', build_base='build', install_base='install', merge_install=False, test_result_base=None, retest_until_fail=0, retest_until_pass=0, abort_on_error=False, return_code_on_test_failure=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['simple_pubsub'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], ctest_args=None, python_testing=None, pytest_args=None, pytest_with_coverage=False, unittest_args=None, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7a18d0327850>, verb_extension=<colcon_core.verb.test.TestVerb object at 0x7a18d03264a0>, main=<bound method TestVerb.main of <colcon_core.verb.test.TestVerb object at 0x7a18d03264a0>>, mixin_verb=('test',))
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.257s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.257s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rufus/Documents/ros2_files/simple_pubsub'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.266s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'simple_pubsub'
+[0.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'simple_pubsub' test argument 'ctest_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'simple_pubsub' test argument 'python_testing' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'simple_pubsub' test argument 'pytest_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'simple_pubsub' test argument 'pytest_with_coverage' from command line to 'False'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'simple_pubsub' test argument 'unittest_args' from command line to 'None'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'simple_pubsub' test argument 'retest_until_pass' from command line to '0'
+[0.267s] Level 5:colcon.colcon_core.verb:set package 'simple_pubsub' test argument 'retest_until_fail' from command line to '0'
+[0.267s] DEBUG:colcon.colcon_core.verb.test:Testing package 'simple_pubsub' with the following arguments: {'build_base': '/home/rufus/Documents/ros2_files/simple_pubsub/build/simple_pubsub', 'ctest_args': None, 'install_base': '/home/rufus/Documents/ros2_files/simple_pubsub/install/simple_pubsub', 'path': '/home/rufus/Documents/ros2_files/simple_pubsub', 'pytest_args': None, 'pytest_with_coverage': False, 'python_testing': None, 'retest_until_fail': 0, 'retest_until_pass': 0, 'test_result_base': None, 'unittest_args': None}
+[0.267s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.268s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.268s] INFO:colcon.colcon_ros.task.ament_cmake.test:Testing ROS package in '/home/rufus/Documents/ros2_files/simple_pubsub' with build type 'ament_cmake'
+[0.268s] INFO:colcon.colcon_cmake.task.cmake.test:Testing CMake package in '/home/rufus/Documents/ros2_files/simple_pubsub'
+[0.270s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.270s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.270s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.270s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/rufus/Documents/ros2_files/testing_package/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[0.305s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rufus/Documents/ros2_files/simple_pubsub/build/simple_pubsub': CMAKE_PREFIX_PATH=/home/rufus/Documents/ros2_files/simple_pubsub/install/simple_pubsub:/home/rufus/Documents/ros2_files/install/realsense2_description:/home/rufus/Documents/ros2_files/install/realsense2_camera_msgs:/home/rufus/Documents/ros2_files/install/fastrtps:/home/rufus/Documents/ros2_files/install/agaricus100_motion:/home/rufus/Documents/ros2_files/install/agaricus100_gazebo:/home/rufus/Documents/ros2_files/install/agaricus100_description:/home/rufus/Documents/ros2_files/Mark1_ros2/install/agaricus100_moveit_config:/home/rufus/Documents/ros2_files/Mark1_ros2/install/agaricus100_motion:/home/rufus/Documents/ros2_files/Mark1_ros2/install/agaricus100_gazebo:/home/rufus/Documents/ros2_files/Mark1_ros2/install/agaricus100_description /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.495s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.496s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.496s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rufus/Documents/ros2_files/simple_pubsub/build/simple_pubsub' returned '0': CMAKE_PREFIX_PATH=/home/rufus/Documents/ros2_files/simple_pubsub/install/simple_pubsub:/home/rufus/Documents/ros2_files/install/realsense2_description:/home/rufus/Documents/ros2_files/install/realsense2_camera_msgs:/home/rufus/Documents/ros2_files/install/fastrtps:/home/rufus/Documents/ros2_files/install/agaricus100_motion:/home/rufus/Documents/ros2_files/install/agaricus100_gazebo:/home/rufus/Documents/ros2_files/install/agaricus100_description:/home/rufus/Documents/ros2_files/Mark1_ros2/install/agaricus100_moveit_config:/home/rufus/Documents/ros2_files/Mark1_ros2/install/agaricus100_motion:/home/rufus/Documents/ros2_files/Mark1_ros2/install/agaricus100_gazebo:/home/rufus/Documents/ros2_files/Mark1_ros2/install/agaricus100_description /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.496s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.496s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.507s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.507s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.507s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.523s] DEBUG:colcon.colcon_core.event_reactor:joined thread
