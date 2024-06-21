@@ -23,7 +23,7 @@ jobs:
         pip install empy
 
     - name: Set up ROS 2 Humble
-      uses: ros-tooling/setup-ros@v0.7.1
+      uses: ros-tooling/setup-ros@v0.2
       with:
         distribution: humble
 
