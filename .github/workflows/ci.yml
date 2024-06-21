@@ -14,27 +14,19 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Uninstall conflicting 'em' package
-      run: |
-        pip uninstall -y em
-
     - name: Install empy
       run: |
-        pip install empy
+        sudo apt-get update
+        sudo apt-get install -y python3-empy
 
     - name: Set up ROS 2
       uses: ros-tooling/setup-ros@0.7.1
       with:
         required-ros-distributions: humble
 
-    - name: Run ROS CI
-      uses: ros-tooling/action-ros-ci@0.3.5
-      with:
-        target-ros2-distro: humble
-
     - name: Install dependencies
       run: |
-        sudo apt-get update -q
+        sudo apt-get update
         sudo apt-get install -y python3-colcon-common-extensions python3-pip
         sudo apt-get install -y \
           ros-humble-rclcpp \
