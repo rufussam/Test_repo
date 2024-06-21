@@ -14,9 +14,9 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Uninstall conflicting 'em' package
-      run: |
-        pip uninstall -y em
+    # - name: Uninstall conflicting 'em' package
+    #   run: |
+    #     pip uninstall -y em
 
     - name: Install empy
       run: |
