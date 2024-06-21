@@ -22,6 +22,10 @@ jobs:
       run: |
         pip install empy
 
+    - name: List installed Python packages
+      run: |
+        pip list
+
     - name: Set up ROS 2
       uses: ros-tooling/setup-ros@0.7.1
       with:
