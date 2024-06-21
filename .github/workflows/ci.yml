@@ -14,19 +14,27 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
+    - name: Uninstall conflicting 'em' package
+      run: |
+        pip uninstall -y em
+
     - name: Install empy
       run: |
-        sudo apt-get update
-        sudo apt-get install -y python3-empy
+        pip install empy
 
     - name: Set up ROS 2
       uses: ros-tooling/setup-ros@0.7.1
       with:
         required-ros-distributions: humble
 
+    - name: Run ROS CI
+      uses: ros-tooling/action-ros-ci@0.3.5
+      with:
+        target-ros2-distro: humble
+
     - name: Install dependencies
       run: |
-        sudo apt-get update
+        sudo apt-get update -q
         sudo apt-get install -y python3-colcon-common-extensions python3-pip
         sudo apt-get install -y \
           ros-humble-rclcpp \
@@ -39,14 +47,25 @@ jobs:
       run: |
         rm -rf build install log
 
-    - name: Build the workspace
+    - name: Source ROS 2 setup
+      shell: bash
       run: |
+        source /opt/ros/humble/setup.bash
+
+    - name: Build the workspace
+      shell: bash
+      run: |
+        source /opt/ros/humble/setup.bash
         colcon build --cmake-args -DCMAKE_BUILD_TYPE=Release
 
     - name: Run tests
+      shell: bash
       run: |
+        source /opt/ros/humble/setup.bash
         colcon test --event-handlers console_cohesion+
 
     - name: Test result
+      shell: bash
       run: |
+        source /opt/ros/humble/setup.bash
         colcon test-result --verbose
