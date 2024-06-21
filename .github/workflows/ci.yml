@@ -33,7 +33,7 @@ jobs:
           ros-humble-std-msgs \
           ros-humble-ament-cmake \
           ros-humble-ament-lint-auto \
-          ros-humble-ament-cmake-gtest#
+          ros-humble-ament-cmake-gtest
 
     - name: Clean build and install directories
       run: |
