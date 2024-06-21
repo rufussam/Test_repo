@@ -22,11 +22,11 @@ jobs:
       run: |
         pip install empy
 
-    - name: Set up ROS 2 Humble repository
-      run: |
-        sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key F42ED6FBAB17C654
-        sudo sh -c 'echo "deb [arch=amd64] http://packages.ros.org/ros2/ubuntu $(lsb_release -cs) main" > /etc/apt/sources.list.d/ros2-latest.list'
-        sudo apt-get update -q
+
+    - uses: ros-tooling/setup-ros@0.7.1
+          with:
+            required-ros-distributions: humble
+    - uses: ros-tooling/action-ros-ci@0.3.5
 
     - name: Install dependencies
       run: |
