@@ -27,11 +27,6 @@ jobs:
       with:
         required-ros-distributions: humble
 
-    - name: Run ROS CI
-      uses: ros-tooling/action-ros-ci@0.3.5
-      with:
-        target-ros2-distro: humble
-
     - name: Install dependencies
       run: |
         sudo apt-get update -q
@@ -57,12 +52,20 @@ jobs:
       run: |
         source /opt/ros/humble/setup.bash
         colcon build --cmake-args -DCMAKE_BUILD_TYPE=Release
+        if [ $? -ne 0 ]; then
+          cat log/latest_build/*.log
+          exit 1
+        fi
 
     - name: Run tests
       shell: bash
       run: |
         source /opt/ros/humble/setup.bash
         colcon test --event-handlers console_cohesion+
+        if [ $? -ne 0 ]; then
+          cat log/latest_test/*.log
+          exit 1
+        fi
 
     - name: Test result
       shell: bash
