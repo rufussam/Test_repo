@@ -22,11 +22,13 @@ jobs:
       run: |
         pip install empy
 
+    - name: Set up ROS 2
+      uses: ros-tooling/setup-ros@0.7.1
+      with:
+        required-ros-distributions: humble
 
-    - uses: ros-tooling/setup-ros@0.7.1
-          with:
-            required-ros-distributions: humble
-    - uses: ros-tooling/action-ros-ci@0.3.5
+    - name: Run ROS CI
+      uses: ros-tooling/action-ros-ci@0.3.5
 
     - name: Install dependencies
       run: |
